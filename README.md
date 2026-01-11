@@ -1,5 +1,10 @@
 # TypeScript Monorepo Boilerplate
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.4-blue.svg)](https://www.typescriptlang.org/)
+[![pnpm](https://img.shields.io/badge/pnpm-10.10.0-orange.svg)](https://pnpm.io/)
+[![Turborepo](https://img.shields.io/badge/Turborepo-1.13.3-blueviolet.svg)](https://turbo.build/)
+
 This template provides a complete monorepo structure with Next.js apps, React (Vite) apps, Nest.js services, and shared packages. It includes all necessary configurations for Docker, linting, TypeScript, and build tooling.
 
 ## ⚠️ Important: Replace These Keywords

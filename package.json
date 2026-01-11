@@ -3,7 +3,28 @@
   "description": "TypeScript Monorepo Boilerplate - A complete monorepo template with Next.js, React, Nest.js, and shared packages",
   "version": "0.1.0",
   "private": true,
-  "author": "Test Author",
+  "author": "yevgeniusr",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yevgeniusr/ts-monorepo-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yevgeniusr/ts-monorepo-boilerplate/issues"
+  },
+  "homepage": "https://github.com/yevgeniusr/ts-monorepo-boilerplate#readme",
+  "keywords": [
+    "monorepo",
+    "typescript",
+    "nextjs",
+    "react",
+    "nestjs",
+    "turborepo",
+    "pnpm",
+    "boilerplate",
+    "template",
+    "starter"
+  ],
   "packageManager": "pnpm@10.10.0",
   "scripts": {
     "type:check": "turbo run type:check",
