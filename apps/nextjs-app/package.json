@@ -1,0 +1,38 @@
+{
+  "name": "ts-monorepo-boilerplate-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "predev": "rm -fr .next",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type:check": "tsc --noEmit",
+    "test": "vitest",
+    "clean": "rm -rf .next node_modules .turbo"
+  },
+  "type": "module",
+  "dependencies": {
+    "@ts-monorepo-boilerplate/common": "workspace:*",
+    "next": "14.2.23",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@ts-monorepo-boilerplate/eslint-config": "workspace:*",
+    "@ts-monorepo-boilerplate/typescript-config": "workspace:*",
+    "@types/node": "^20.11.19",
+    "@types/react": "^18.2.56",
+    "@types/react-dom": "^18.2.19",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8.4.35",
+    "prettier": "^3.2.5",
+    "tailwindcss": "^3.4.1",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5.3.3",
+    "vitest": "^1.6.0"
+  }
+}

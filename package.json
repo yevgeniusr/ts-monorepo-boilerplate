@@ -1,0 +1,31 @@
+{
+  "name": "ts-monorepo-boilerplate",
+  "description": "TypeScript Monorepo Boilerplate - A complete monorepo template with Next.js, React, Nest.js, and shared packages",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Test Author",
+  "packageManager": "pnpm@10.10.0",
+  "scripts": {
+    "type:check": "turbo run type:check",
+    "build": "turbo run build --force",
+    "build:backend": "turbo run build --filter=*backend",
+    "clean": "turbo run clean",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "prettier": "^3.2.5",
+    "prettier-plugin-jsdoc": "^1.3.0",
+    "turbo": "^1.13.3",
+    "typescript": "^5.4.5",
+    "vitest": "^1.6.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "rollup": "npm:@rollup/wasm-node"
+    }
+  }
+}
