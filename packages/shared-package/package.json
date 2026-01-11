@@ -23,7 +23,7 @@
   "devDependencies": {
     "@ts-monorepo-boilerplate/eslint-config": "workspace:*",
     "@ts-monorepo-boilerplate/typescript-config": "workspace:*",
-    "eslint": "8",
+    "eslint": "9",
     "eslint-plugin-require-extensions": "^0.1.3",
     "prettier": "^3.2.5",
     "typescript": "^5.4.5",
