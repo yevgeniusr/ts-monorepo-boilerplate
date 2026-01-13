@@ -33,7 +33,7 @@
   "dependencies": {
     "@nestjs/common": "^10.0.0",
     "@nestjs/config": "^3.2.3",
-    "@nestjs/core": "^10.0.0",
+    "@nestjs/core": "^11.1.11",
     "@nestjs/platform-express": "^10.0.0",
     "@ts-monorepo-boilerplate/common": "workspace:*",
     "reflect-metadata": "^0.1.13",
