@@ -11,7 +11,7 @@ module.exports = {
     '**/*.(t|j)s'
   ],
   coverageDirectory: '../coverage',
-  moduleNameMapping: {
+  moduleNameMapper: {
     '^@ts-monorepo-boilerplate/common$': '<rootDir>/../../../packages/shared-package/src/index.ts',
     '^@ts-monorepo-boilerplate/common/(.*)$': '<rootDir>/../../../packages/shared-package/src/$1'
   }

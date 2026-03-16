@@ -1,11 +1,11 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import tailwindcss from '@tailwindcss/vite';
 import path from 'path';
-/// <reference types="vitest" />
 
-// https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   plugins: [
+    tailwindcss(),
     react(),
   ],
   base: '/',
@@ -28,7 +28,6 @@ export default defineConfig(({ mode }) => ({
     port: 5173,
   },
   define: {
-    // Define process.env to prevent errors
     'process.env': {},
   },
 }));

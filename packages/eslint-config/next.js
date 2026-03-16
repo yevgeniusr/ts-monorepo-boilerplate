@@ -2,7 +2,7 @@
 module.exports = {
   extends: [
     "./base.js",
-    require.resolve("@vercel/style-guide/eslint/next"),
+    "next/core-web-vitals",
     "./additional-rules.js",
   ],
   globals: {

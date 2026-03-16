@@ -1,7 +1,6 @@
 {
   "extends": ["//"],
-  "globalDependencies": [".env"],
-  "pipeline": {
+  "tasks": {
     "build": {
       "env": ["NODE_ENV"],
       "dependsOn": ["^build"],
